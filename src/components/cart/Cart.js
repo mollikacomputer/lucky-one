@@ -3,14 +3,18 @@ import './Cart.css'
 
 const Cart = (props) => {
     const {cart} =props;
-    let productName = '';
-    for(const product of cart){
-        productName = product.name;
-    }
+    // for(const product of cart){
+    //     productName = product.name;
+    // }
+
     return (
         <div className='cart bg-light ms-1'>
             <div className='cart-info' >
-                <p> {productName} </p>
+            <p>     
+            {
+                cart.map(item =>(<h6>{item.name}</h6>))
+            } 
+            </p>
             </div>
             <h6> this is cart </h6>
             <div className="btn btn-warning m-2"> Click to get One </div>

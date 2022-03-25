@@ -13,7 +13,12 @@ const Shop = () => {
     const [cart, setCart]= useState([]);
     const addToCart = (product)=>{
         const newCart = [...cart, product]
-        setCart(newCart);
+        if(cart.length<=3){
+            setCart(newCart);
+        }else{
+            alert('You can add only 4 items');
+        }
+        
     }
     return (
         <div className='shop row'>
