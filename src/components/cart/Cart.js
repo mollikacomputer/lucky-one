@@ -12,7 +12,7 @@ const Cart = (props) => {
             <div className='cart-info' >
             <p>     
             {
-                cart.map(item =>(<h6>{item.name}</h6>))
+                cart.map(item =>( <h6><img src={item.picture} alt="" /> {item.name}</h6>))
             } 
             </p>
             </div>

@@ -17,8 +17,7 @@ const Shop = () => {
             setCart(newCart);
         }else{
             alert('You can add only 4 items');
-        }
-        
+        } 
     }
     return (
         <div className='shop row'>
