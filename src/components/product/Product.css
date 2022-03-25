@@ -1,0 +1,9 @@
+.product{
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.product img{
+    width: 100%;
+    border-radius: 8px;
+}
