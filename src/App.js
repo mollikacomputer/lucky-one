@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import AnswerAnotherOne from './components/AnswerOne/answerAnotherOne/AnswerAnotherOne';
+import AnswerAnotherOne from './components/answerAnotherOne/AnswerAnotherOne';
 import AnswerOne from './components/AnswerOne/AnswerOne';
 import Header from './components/header/Header';
 import Shop from './components/shop/Shop';
