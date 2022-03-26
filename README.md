@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Demented Buyer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create Demented Buyer](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

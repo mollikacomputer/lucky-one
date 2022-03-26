@@ -19,6 +19,15 @@ const Shop = () => {
             alert('You can add only 4 items');
         } 
     }
+    const chooseAgain=()=>{
+        const newCart = []
+        setCart(newCart);
+    }
+    
+    const selectedOneItem = (product)=>{
+        
+    }
+  
     return (
         <div className='shop row'>
             <div className='single-product bg-light'>
@@ -31,10 +40,13 @@ const Shop = () => {
                 }
             </div>
             <div>
-                <Cart cart={cart} ></Cart>
+                <Cart 
+                key={cart.id}
+                cart={cart} 
+                chooseAgain ={chooseAgain} 
+                selectedOneItem={selectedOneItem} 
+                ></Cart>
             </div>
-
-
         </div>
     
     );
