@@ -1,7 +1,11 @@
 .cart{
     padding-top: 20px;
     padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+
 }
+
 .cart-info{
     display: flex;
 }
